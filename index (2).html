@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,7 +9,7 @@
     <meta name="author" content="Langay Warraich Brothers">
     <meta property="og:title" content="Langay Warraich Brothers">
     <meta property="og:description" content="Free unprofitable organization providing support to the community. Serving food, education, and health services with love and care.">
-    <meta property="og:image" content="haseeb.jpg">
+    <meta property="og:image" content="index.2picture/akbar.png">
     <meta property="og:url" content="https://yourdomain.com">
     <title>Langay Warraich Brothers</title>
     <style>
@@ -28,7 +28,7 @@
         }
         header img {
             width: 100%;
-            max-width: 1000px;  /* Adjust width as needed */
+            max-width: 1000px;
             height: auto;
             border-radius: 10px;
         }
@@ -36,8 +36,13 @@
             margin: 0;
             font-size: 45px;
         }
-        header p {
-            font-size: 22px;
+        .header-p2 {
+            font-size: 20px;
+            color: #000;
+        }
+        .header-p3 {
+            font-size: 18px;
+            color: #000;
         }
         nav {
             background-color: #2b008f;
@@ -121,16 +126,31 @@
             text-align: center;
             padding: 15px;
         }
+        
+        /* Media query for responsiveness */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 30px;
+            }
+            nav {
+                font-size: 14px;
+            }
+            .container {
+                width: 100%;
+                padding: 10px;
+            }
+            .pictures img {
+                width: 90%;
+            }
+        }
     </style>
 </head>
 <body>
 
 <header>
-    <!-- Added your image here -->
     <h1>Langay Warraich Brothers</h1>
-    <p>CHOHADRI AKBAR ALI = ASHRAF WARRAICH = MUHAMMAD KHAN</p>
-    <P2>اکبر      علی اشرف     وڑائچ، لنگے     جٹ برادران</P2>
-                        <P3>PAK ARMY</P3>
+    <p class="header-p2">اکبر علی اشرف وڑائچ، لنگے جٹ برادران</p>
+    <p class="header-p3">PAK ARMY</p>
 </header>
 
 <nav>
@@ -140,7 +160,9 @@
     <a href="#contact">Contact</a>
     <a href="#upload">Upload</a>
 </nav>
+
 <img src="index.2picture/akbar.png" alt="Description of the image" width="1180" height="900" style="display: block; margin: 0 auto;">
+
 <div class="container">
     <!-- About Us Section -->
     <section id="about" class="about">
@@ -151,11 +173,7 @@
     <!-- Mission Section -->
     <section id="mission" class="mission">
         <h2>Our Mission non-profit</h2>
-        <p>The Warraich family of Gujrat Langay is a proud example of tradition, unity, and a relentless commitment to building a better society. Rooted in strong family values, we believe in the power of education, integrity, and service to others. Our family has a long history of producing highly educated individuals who have excelled in various fields, particularly in serving our country through the Pakistan Army.
-
-            We take immense pride in the fact that several members of our family have contributed to the defense and welfare of Pakistan, upholding the values of discipline, honor, and patriotism. Their dedication to both their profession and to creating a better, more prosperous society reflects the Warraich family's vision of making a meaningful impact in the world.
-            
-            As we continue to grow and evolve, our focus remains on nurturing future generations to carry forward our legacy of excellence, education, and service, all while working to strengthen and uplift the communities around us..</p>
+        <p>The Warraich family of Gujrat Langay is a proud example of tradition, unity, and a relentless commitment to building a better society. Rooted in strong family values, we believe in the power of education, integrity, and service to others. Our family has a long history of producing highly educated individuals who have excelled in various fields, particularly in serving our country through the Pakistan Army.</p>
     </section>
 
     <!-- Search Bar Section -->
@@ -168,16 +186,19 @@
         <h2>Gallery</h2>
         <p>MUHAMMAD HASEEB ,FOJI AKBAR ALI, MUHAMMAD WAHEED AKBAR WARRAICH ,CH NAVEED AKBAR,FOJI ASHRAF WARRAICH</p>
         <div>
-            <img src="image1.jpg" alt="Image 1"><img src="index.picture/haseeb.png" alt="Description of the image" width="1580" height="400" style="display: block; margin: 0 auto;">
-            <img src="image2.jpg" alt="Image 2"><img src="index.1picture/haseeb1.jpg" alt="Description of the image" width="1580" height="400" style="display: block; margin: 0 auto;">
-            <img src="image3.jpg" alt="Image 3"><img src="index.2picture/akbar.png" alt="Description of the image" width="1580" height="400" style="display: block; margin: 0 auto;">
+            <img src="image1.jpg" alt="Image 1">
+            <img src="index.picture/haseeb.png" alt="Portrait of Haseeb, a member of the Warraich family" width="1580" height="400" style="display: block; margin: 0 auto;">
+            <img src="image2.jpg" alt="Image 2">
+            <img src="index.1picture/haseeb1.jpg" alt="Portrait of Haseeb" width="1580" height="400" style="display: block; margin: 0 auto;">
+            <img src="image3.jpg" alt="Image 3">
+            <img src="index.2picture/akbar.png" alt="Portrait of Akbar" width="1580" height="400" style="display: block; margin: 0 auto;">
         </div>
     </section>
 
     <!-- Upload Section -->
     <section id="upload" class="upload">
         <h2>Upload Your Contribution</h2>
-        <p>If you would like to upload any resources or documents that can help our organization, please use the form below, TOGATHER WE WILL BUILD A BETTER AND MODRAN WORLD AND GREAT Langay society:</p>
+        <p>If you would like to upload any resources or documents that can help our organization, please use the form below, TOGETHER WE WILL BUILD A BETTER AND MODERN WORLD AND GREAT Langay society:</p>
         <input type="file" name="fileUpload" accept="image/*, .pdf, .docx, .txt">
     </section>
 
@@ -187,7 +208,7 @@
         <p>If you have any questions or would like to get involved, feel free to reach out:</p>
         <p>Email: <a href="mailto:info@langaywarraichbrothers.org">info@langaywarraichbrothers.org</a></p>
         <p>haseebah725@gmail.com</p>
-        <p>Address:shadiwal Road langay, City gujrat,village langay Country pakistan</p>
+        <p>Address: Shadiwal Road Langay, City Gujrat, Village Langay, Country Pakistan</p>
     </section>
 </div>
 
